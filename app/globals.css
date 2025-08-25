@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@theme {
-  --color-bankGradient: #0179FE;
-  --background-image-bank-gradient: linear-gradient(90deg, #0179FE 0%, #4893FF 100%);
-  --background-image-gradient-mesh: url('/icons/gradient-mesh.svg');
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -363,10 +357,6 @@
 
   .footer_image {
     @apply relative size-5 max-xl:w-full max-xl:flex max-xl:justify-center max-xl:items-center;
-  }
-
-  .footer_image-mobile {
-    @apply relative size-5;
   }
 
   /* Sidebar */
