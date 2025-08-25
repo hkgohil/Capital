@@ -1,6 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-bankGradient: #0179FE;
+  --background-image-bank-gradient: linear-gradient(90deg, #0179FE 0%, #4893FF 100%);
+  --background-image-gradient-mesh: url('/icons/gradient-mesh.svg');
+}
 
 * {
   margin: 0;
